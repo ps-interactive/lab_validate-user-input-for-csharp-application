@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.  
+
+{% choice %}
+{% question %}
+During the SQL‑Injection exercise, which input string returned all rows from the Users table?
+{% /question %}
+{% option %}
+ADD TABLE Users;
+{% /option %}
+{% option %}
+EXEC xp_cmdshell('dir')
+{% /option %}
+{% option answer=true %}
+' OR '1'='1
+{% /option %}
+{% option %}
+ADD TEXT TO Users
+{% /option %}
+{% /choice %}

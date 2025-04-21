@@ -1,1 +1,1 @@
-# lab_validate-user-input-for-csharp-application
+# lab_sanitize-user-input-for-csharp-application

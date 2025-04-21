@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // Open directly to the Explorer without welcome or untitled files
+    "workbench.startupEditor": "none",
+
+    // Use preview tabs to reduce clutter
+    "workbench.editor.enablePreview": true
+  }
+}

@@ -1,0 +1,4 @@
+Examine each of the options below and select the correct answer.  
+
+{% choice %} {% question %} What insecure practice was demonstrated when constructing the query
+SELECT * FROM Users WHERE Username = ' + userName + ' '? {% /question %} {% option %} Using prepared statements with placeholders {% /option %} {% option answer=true %} Concatenating user input directly into SQL {% /option %} {% option %} Binding parameters with AddWithValue {% /option %} {% option %} Calling a stored procedure with parameters {% /option %} {% /choice %}
