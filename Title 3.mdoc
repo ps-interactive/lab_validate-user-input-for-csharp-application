@@ -1,3 +1,20 @@
 Examine each of the options below and select the correct answer.  
 
-{% choice %} {% question %} In the XSS demo, which line caused the application to render user input as executable HTML? {% /question %} {% option %} ViewData["Title"] = "XSS Demo" {% /option %} {% option answer=true %} @Html.Raw(ViewBag.UserInput) {% /option %} {% option %} <form method="post"> {% /option %} {% option %} @System.Net.WebUtility.HtmlEncode(ViewBag.UserInput) {% /option %} {% /choice %}
+{% choice %}
+{% question %}
+Writing ten characters into a `char[5]` via pointers produced which class of vulnerability?
+{% /question %}
+{% option %}
+SQL Injection
+{% /option %}
+{% option answer=true %}
+Buffer Overflow
+{% /option %}
+{% option %}
+Cross-Site Scripting (XSS)
+{% /option %}
+{% option %}
+Race Condition
+{% /option %}
+{% /choice %}
+

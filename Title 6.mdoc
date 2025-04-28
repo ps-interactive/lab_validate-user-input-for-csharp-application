@@ -1,3 +1,20 @@
 Examine each of the options below and select the correct answer.  
 
-{% choice %} {% question %} Which Razor directive inserts a hidden anti‑forgery token field into a form to defend against CSRF? {% /question %} {% option %} @RenderSection() {% /option %} {% option answer=true %} @Html.AntiForgeryToken() {% /option %} {% option %} @model {% /option %} {% option %} @AddTagHelper * {% /option %} {% /choice %}
+{% choice %}
+{% question %}
+To re-enable legacy BinaryFormatter use in .NET 8, which project property did the labs add?
+{% /question %}
+{% option answer=true %}
+<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+{% /option %}
+{% option %}
+<AllowBinaryFormatter>true</AllowBinaryFormatter>
+{% /option %}
+{% option %}
+<EnableUnsafeDeserialization>true</EnableUnsafeDeserialization>
+{% /option %}
+{% option %}
+<EnableLegacySerialization>true</EnableLegacySerialization>
+{% /option %}
+{% /choice %}
+

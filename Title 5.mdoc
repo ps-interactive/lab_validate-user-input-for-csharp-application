@@ -1,3 +1,20 @@
 Examine each of the options below and select the correct answer.  
 
-{% choice %} {% question %} Which ASP.NET Core controller attribute forces the framework to check that a request contains a valid anti‑forgery token? {% /question %} {% option %} [Authorize] {% /option %} {% option %} [Route] {% /option %} {% option answer=true %} [ValidateAntiForgeryToken] {% /option %} {% option %} [HttpOptions] {% /option %} {% /choice %}
+{% choice %}
+{% question %}
+Which .NET serializer is deprecated because deserializing untrusted data with it can enable remote-code execution?
+{% /question %}
+{% option answer=true %}
+BinaryFormatter
+{% /option %}
+{% option %}
+System.Text.Json JsonSerializer
+{% /option %}
+{% option %}
+DataContractJsonSerializer
+{% /option %}
+{% option %}
+XmlSerializer
+{% /option %}
+{% /choice %}
+

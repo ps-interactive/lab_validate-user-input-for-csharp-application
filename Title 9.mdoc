@@ -1,3 +1,19 @@
 Examine each of the options below and select the correct answer.  
 
-{% choice %} {% question %} To prevent XSS, “output encoding” means: {% /question %} {% option %} Escaping quotes only when input contains < or > {% /option %} {% option answer=true %} Ensuring user input is written to the page as plain text, not interpreted HTML {% /option %} {% option %} Storing input in Base64 before display {% /option %} {% option %} Filtering out all numeric characters {% /option %} {% /choice %}
+{% choice %}
+{% question %}
+Which practice is **NOT** recommended if you want to avoid buffer-overflow issues in C#?
+{% /question %}
+{% option %}
+Use managed collections such as `List<T>`.
+{% /option %}
+{% option %}
+Avoid `unsafe` blocks unless absolutely necessary.
+{% /option %}
+{% option answer=true %}
+Rely on `stackalloc` spans without bounds checks.
+{% /option %}
+{% option %}
+Leave the compiler’s automatic bounds checking enabled.
+{% /option %}
+{% /choice %}

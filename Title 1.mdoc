@@ -1,4 +1,21 @@
 Examine each of the options below and select the correct answer.  
 
 
-{% choice %} {% question %} Which technique should a C# application use to safely insert user‑supplied values into a SQL query? {% /question %} {% option %} String concatenation with the + operator {% /option %} {% option %} Dynamic SQL built from user input {% /option %} {% option answer=true %} Parameterized queries that bind values (e.g., @username) {% /option %} {% option %} Adding single quotes around every input value {% /option %} {% /choice %}
+{% choice %}
+{% question %}
+Which project‐file element must you add to compile C# code that contains pointer operations?
+{% /question %}
+{% option answer=true %}
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+{% /option %}
+{% option %}
+<Unsafe>true</Unsafe>
+{% /option %}
+{% option %}
+<EnablePointers>true</EnablePointers>
+{% /option %}
+{% option %}
+<SkipVerification>true</SkipVerification>
+{% /option %}
+{% /choice %}
+
